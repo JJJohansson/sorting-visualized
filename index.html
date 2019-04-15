@@ -8,7 +8,14 @@
   <body>
     <div id="area">
       <div id="header">
-        <h2 id="title" />
+        <div id="sort-select">
+          <select id="select">
+            <option value="bubble">bubble sort</option>
+            <option value="cocktail">cocktail shake sort</option>
+          </select>
+          <input type="button" value="SORT" onClick="start()"/>
+        </div>
+        <h2 id="title">sorting</h2>
       </div>
         <canvas id="canvas" width="1500" height="500"></canvas>
     </div>
